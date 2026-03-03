@@ -224,15 +224,47 @@
   <!-- QUOTE -->
 <!-- QUOTE -->
 <section id="quote" class="section quote">
-
   <div class="container">
 
     <div class="section-head center">
       <h2>Request Service</h2>
       <p>Fill out the form and we will contact you shortly.</p>
     </div>
+
     <form class="quote-form" action="https://formspree.io/f/xreadnnw" method="POST">
-      <input type="hidden" name="_next" value="thanks.html">
+
+      <div class="field">
+        <label>Full Name / Company Name *</label>
+        <input type="text" name="name" required>
+      </div>
+
+      <div class="field">
+        <label>Email *</label>
+        <input type="email" name="email" required>
+      </div>
+
+      <div class="field">
+        <label>Phone *</label>
+        <input type="tel" name="phone" required>
+      </div>
+
+      <div class="field">
+        <label>Service Needed</label>
+        <select name="service">
+          <option>Repair</option>
+          <option>Installation</option>
+          <option>Maintenance</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Message</label>
+        <textarea name="message"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-quote">Send Request</button>
+
+    </form>
 
   </div>
 </section>
