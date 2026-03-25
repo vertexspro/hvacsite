@@ -9,13 +9,12 @@
 </head>
 
 <body>
-  <!-- Sticky Header -->
-  <a class="brand" href="#home">
-    <img src="assets/logo.png" alt="Vertex Smart Pro HVAC" class="logo">
-  </a>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Vertex Smart Pro Home">
+      <img src="assets/logo.png" alt="Vertex Smart Pro HVAC" class="logo">
+    </a>
 
     <div class="top-actions">
-      <!-- Replace phone number -->
       <a class="btn btn-call" href="tel:+14375612887">Call Now</a>
       <a class="btn btn-quote" href="#quote">Get Quote</a>
 
@@ -25,7 +24,6 @@
     </div>
   </header>
 
-  <!-- Slide-down Menu -->
   <nav class="menu" id="menu" aria-label="Site menu">
     <a href="#home">Home</a>
     <a href="#services">Services</a>
@@ -37,19 +35,21 @@
     <a href="privacy.html">Privacy</a>
   </nav>
 
-  <!-- HERO -->
   <main id="home" class="hero">
     <div class="hero-overlay"></div>
     <div class="container hero-inner">
       <p class="kicker">Serving the GTA • Licensed & Insured</p>
-      <h1>Top-Rated HVAC Services<br/>for Homes & Businesses</h1>
+      <h1>Top-Rated HVAC Services<br>for Homes & Businesses</h1>
       <p class="sub">
         Repairs • Installations • Maintenance • Rooftop Units • Heat Pumps
+      </p>
+      <p class="hero-urgent">
+        Same-Day Service Available • Emergency Calls Welcome
       </p>
 
       <div class="hero-cta">
         <a class="btn btn-quote btn-lg" href="#quote">Get Quote</a>
-        <a class="btn btn-ghost btn-lg" href="tel:+14375612887">Call Now</a>
+        <a class="btn btn-ghost btn-lg" href="tel:+10000000000">Call Now</a>
       </div>
 
       <div class="trust-row" aria-label="Trust points">
@@ -60,7 +60,6 @@
     </div>
   </main>
 
-  <!-- OFFERS -->
   <section id="offers" class="band">
     <div class="container band-grid">
       <div class="band-copy">
@@ -90,12 +89,11 @@
         </div>
 
         <a class="btn btn-light" href="#quote">Claim Offer</a>
-        <p class="fineprint"></p>
+        <p class="fineprint">Change this text anytime for your real seasonal promo.</p>
       </div>
 
       <div class="band-card" aria-label="Equipment image card">
-        <img src="assets/offer.jpg" alt="HVAC equipment in a mechanical room"
-             onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');"/>
+        <img src="assets/offer.jpg" alt="HVAC equipment in a mechanical room" onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');">
         <div class="fallback">
           <div class="fallback-icon">🧰</div>
           <div class="fallback-text">
@@ -106,7 +104,6 @@
     </div>
   </section>
 
-  <!-- SERVICES -->
   <section id="services" class="section">
     <div class="container">
       <div class="section-head">
@@ -116,24 +113,28 @@
 
       <div class="cards">
         <article class="card">
+          <div class="icon">🛠️</div>
           <h3>Repairs</h3>
           <p>No cooling, weak airflow, leaks, strange noises — we diagnose and fix fast.</p>
           <a href="#quote" class="link">Get Quote →</a>
         </article>
 
         <article class="card">
+          <div class="icon">❄️</div>
           <h3>Installation</h3>
           <p>Furnaces, A/C, heat pumps, rooftop units — sized properly, installed cleanly.</p>
           <a href="#quote" class="link">Get Quote →</a>
         </article>
 
         <article class="card">
+          <div class="icon">🧼</div>
           <h3>Maintenance</h3>
           <p>Seasonal tune-ups to reduce breakdowns, improve efficiency, and extend lifespan.</p>
           <a href="#quote" class="link">Get Quote →</a>
         </article>
 
         <article class="card">
+          <div class="icon">🌬️</div>
           <h3>Indoor Air Quality</h3>
           <p>Filters, humidifiers, airflow balancing — breathe cleaner, feel better.</p>
           <a href="#quote" class="link">Get Quote →</a>
@@ -142,8 +143,34 @@
     </div>
   </section>
 
-  <!-- COMMERCIAL -->
-  <section id="commercial" class="section alt">
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head center">
+        <h2>How It Works</h2>
+        <p>Fast, simple, and professional from start to finish.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Request a Quote</h3>
+          <p>Tell us what you need — it takes 30 seconds.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>We Call You</h3>
+          <p>We confirm details and give you pricing options.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>We Fix It</h3>
+          <p>Clean work, clear communication, warranty-backed service.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="commercial" class="section alt2">
     <div class="container split">
       <div class="split-copy">
         <h2>Commercial HVAC</h2>
@@ -156,13 +183,12 @@
         </ul>
         <div class="split-actions">
           <a class="btn btn-quote" href="#quote">Get Quote</a>
-          <a class="btn btn-ghost dark-ghost" href="#contact">Talk to Us</a>
+          <a class="btn btn-dark-outline" href="#contact">Talk to Us</a>
         </div>
       </div>
 
       <div class="split-media">
-        <img src="assets/commercial.jpg" alt="Technician working on rooftop HVAC unit"
-             onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');"/>
+        <img src="assets/commercial.jpg" alt="Technician working on rooftop HVAC unit" onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');">
         <div class="fallback">
           <div class="fallback-icon">🏢</div>
           <div class="fallback-text">
@@ -173,7 +199,6 @@
     </div>
   </section>
 
-  <!-- REVIEWS -->
   <section id="reviews" class="section">
     <div class="container">
       <div class="section-head center">
@@ -219,58 +244,61 @@
     </div>
   </section>
 
-  <!-- QUOTE -->
-<!-- QUOTE -->
-<section id="quote" class="section quote">
-  <div class="container">
+  <section id="quote" class="section quote">
+    <div class="container">
+      <div class="section-head center">
+        <h2>Request Service</h2>
+        <p>Fill out the form and we will contact you shortly.</p>
+      </div>
 
-    <div class="section-head center">
-      <h2>Request Service</h2>
-      <p>Fill out the form and we will contact you shortly.</p>
+      <form class="quote-form" action="https://formspree.io/f/xdapngov" method="POST">
+        <input type="hidden" name="_subject" value="New Quote Request — Vertex Smart Pro HVAC">
+        <input type="hidden" name="_next" value="https://vertexspro.github.io/hvacsite/thanks.html">
+        <input type="text" name="_gotcha" class="hidden-trap" tabindex="-1" autocomplete="off">
+
+        <div class="field-grid">
+          <div class="field">
+            <label for="name">Full Name / Company Name *</label>
+            <input id="name" name="name" type="text" required minlength="3" placeholder="John Smith or ABC Property Management">
+          </div>
+
+          <div class="field">
+            <label for="email">Email *</label>
+            <input id="email" name="email" type="email" required placeholder="you@email.com">
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone Number *</label>
+            <input id="phone" name="phone" type="tel" required pattern="^(\+?1[\s\-\.]?)?(\(?[2-9]\d{2}\)?[\s\-\.]?)\d{3}[\s\-\.]?\d{4}$" placeholder="647-123-4567">
+          </div>
+
+          <div class="field">
+            <label for="service">Service Needed *</label>
+            <select id="service" name="service" required>
+              <option value="">Select</option>
+              <option>Repair</option>
+              <option>Installation</option>
+              <option>Maintenance</option>
+              <option>Commercial Service</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="address">Service Address *</label>
+          <input id="address" name="address" type="text" required placeholder="123 Main St, Mississauga, ON">
+        </div>
+
+        <div class="field">
+          <label for="message">Describe the Problem *</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Tell us what’s going on."></textarea>
+        </div>
+
+        <button class="btn btn-quote btn-lg" type="submit">Send Request</button>
+      </form>
     </div>
+  </section>
 
-    <form class="quote-form" action="https://formspree.io/f/xdapngov" method="POST">
-      <input type="hidden" name="_next" value="thanks.html">
-<input type="hidden" name="_subject" value="New Quote Request — Vertex Smart Pro HVAC">
-<input type="text" name="_gotcha" style="display:none">
-
-      <div class="field">
-        <label>Full Name / Company Name *</label>
-        <input type="text" name="name" required>
-      </div>
-
-      <div class="field">
-        <label>Email *</label>
-        <input type="email" name="email" required>
-      </div>
-
-      <div class="field">
-        <label>Phone *</label>
-        <input type="tel" name="phone" required>
-      </div>
-
-      <div class="field">
-        <label>Service Needed</label>
-        <select name="service">
-          <option>Repair</option>
-          <option>Installation</option>
-          <option>Maintenance</option>
-        </select>
-      </div>
-
-      <div class="field">
-        <label>Message</label>
-        <textarea name="message"></textarea>
-      </div>
-
-      <button type="submit" class="btn btn-quote">Send Request</button>
-
-    </form>
-
-  </div>
-</section>
-
-  <!-- FOOTER -->
   <footer id="contact" class="footer">
     <div class="container footer-grid">
       <div>
@@ -282,7 +310,7 @@
       <div>
         <h4>Contact</h4>
         <p><a href="tel:+14375612887">+1 (437) 561-2887</a></p>
-        <p><a href="mailto:quotes@vertexprohvac.ca">quotes@vertexprohvac.ca</a></p>
+        <p><a href="mailto:N/A">Currently N/A</a></p>
       </div>
 
       <div>
@@ -296,6 +324,11 @@
       <small>© <span id="year"></span> Vertex Smart Pro HVAC. All rights reserved.</small>
     </div>
   </footer>
+
+  <div class="mobile-bar">
+    <a href="tel:+10000000000">Call</a>
+    <a href="#quote">Get Quote</a>
+  </div>
 
   <script src="script.js"></script>
 </body>
