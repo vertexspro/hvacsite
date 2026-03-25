@@ -1,12 +1,12 @@
 :root{
   --text:#0f172a;
   --muted:#64748b;
-  --line:rgba(15,23,42,.10);
+  --line:rgba(15, 23, 42, 0);
   --brand:#0f62fe;
   --brand2:#0b4bd4;
   --quote:#ff8700;
   --call:#34d06c;
-  --shadow:0 10px 30px rgba(2,6,23,.12);
+  --shadow:0 10px 30px rgba(2, 6, 23, 0);
   --radius:18px;
 }
 
